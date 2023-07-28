@@ -1,0 +1,64 @@
+/* Color Theme Swatches in Hex */
+.Tecno-Cables-Conection-Internet--1-hex { color: #044BD9; }
+.Tecno-Cables-Conection-Internet--2-hex { color: #0460D9; }
+.Tecno-Cables-Conection-Internet--3-hex { color: #6DA7F2; }
+.Tecno-Cables-Conection-Internet--4-hex { color: #D9C8B4; }
+.Tecno-Cables-Conection-Internet--5-hex { color: #262626; }
+
+/* Color Theme Swatches in RGBA */
+.Tecno-Cables-Conection-Internet--1-rgba { color: rgba(4, 75, 216, 1); }
+.Tecno-Cables-Conection-Internet--2-rgba { color: rgba(4, 96, 216, 1); }
+.Tecno-Cables-Conection-Internet--3-rgba { color: rgba(109, 166, 242, 1); }
+.Tecno-Cables-Conection-Internet--4-rgba { color: rgba(216, 200, 179, 1); }
+.Tecno-Cables-Conection-Internet--5-rgba { color: rgba(38, 38, 38, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Tecno-Cables-Conection-Internet--1-hsla { color: hsla(219, 96, 43, 1); }
+.Tecno-Cables-Conection-Internet--2-hsla { color: hsla(213, 96, 43, 1); }
+.Tecno-Cables-Conection-Internet--3-hsla { color: hsla(213, 83, 68, 1); }
+.Tecno-Cables-Conection-Internet--4-hsla { color: hsla(33, 32, 77, 1); }
+.Tecno-Cables-Conection-Internet--5-hsla { color: hsla(0, 0, 15, 1); }
+
+.main-bar{
+    background-image: linear-gradient(to top, #6DA7F2, #044bd9 );
+    height: 7rem;
+}
+
+.input-group{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control-rounded{
+    border-radius: 5px;
+    border: solid 2px #8d8d8d;
+    height: 40px;
+    width: 25%;
+    padding: 15px;
+}
+
+.form-control-rounded:focus{
+    box-shadow: 0 0 0 0;
+    border: solid 2px #6DA7F2;
+    outline: 0;
+}
+
+.btn-search{
+    border-radius: 0px 5px 5px 0px;
+    border: solid 2px #044BD9;
+    height: 40px;
+    background-color: #ffffff;
+    color: #044BD9;
+    padding: 1em;
+    font-weight: bold;
+}
+
+/* .btn-search:active{
+    font-weight: 900;
+} */
+
