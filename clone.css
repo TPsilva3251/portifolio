@@ -112,7 +112,7 @@ a:hover {
     color: #6c757d;
 }
 
-#h3{
+#h3 {
     font-size: 1.35em;
 }
 
@@ -135,4 +135,129 @@ a:hover {
 .card:nth-child(5) {
     background-color: red;
     margin-right: 0;
+}
+
+.footer {
+    margin-top: 200vh;
+    margin-left: -0.5vw;
+    width: 100vw;
+    height: 55vh;
+    position: absolute;
+    background-color: #f57c00;
+}
+
+.social {
+    display: flex;
+}
+
+.social>h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-left: 5vw;
+}
+
+.facebook {
+    margin-left: 70vw;
+}
+
+.facebook,
+.instagran {
+    width: 25px;
+    height: 25px;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+.space {
+    height: 0.2vh;
+    width: 100vw;
+    margin-top: -2vh;
+    background-color: #ffffff;
+}
+
+.final {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+}
+
+.nome-footer {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-bottom: -35px;
+}
+
+.nome-footer {
+    margin-left: 8vw;
+    margin-top: 2vw;
+}
+
+.frase-footer {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-left: 8vw;
+    margin-top: -55px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.div-portal {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 7vw;
+    color: #ffffff;   
+}
+
+.div-portal>p:nth-child(1){
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.div-portal>p:nth-child(2){
+    margin-top: 55px;
+}
+
+
+.div-servicos {
+    grid-area: 1 / 3 / 2 / 4;
+    margin-left: 7vw;
+    width: 180px;
+    color: #ffffff;
+}
+
+.div-servicos>p:nth-child(1){
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.div-servicos>p:nth-child(2){
+    margin-top: 55px;
+}
+
+
+.div-contatos {
+    grid-area: 1 / 4 / 2 / 5;
+    margin-left: 7vw;
+    width: 180px;
+    color: #ffffff;
+}
+
+.div-contatos>p:nth-child(1){
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.div-contatos>p:nth-child(2){
+    margin-top: 55px;
+}
+
+.cop{
+    background-color: #e97600;
+    /* background-color: #6c757d; */
+    height: 8vh;
+    display: flex;
+}
+.cop>p{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
 }
