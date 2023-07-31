@@ -1,0 +1,138 @@
+.nav-bar {
+    width: 97.5vw;
+    height: 8vh;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -6px;
+    padding: 1rem;
+    background-color: #9ed6e7;
+}
+
+.links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 5vw;
+}
+
+a {
+    text-decoration: none;
+    color: #191970;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #f57c00;
+    cursor: pointer;
+}
+
+#logo {
+    background-color: aliceblue;
+    margin-right: 2vw;
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+    justify-items: start;
+}
+
+.publique {
+    margin-left: 10vw;
+    margin-right: 13vw;
+    padding: 7px;
+    background-color: #f57c00;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.publique:hover {
+    background-color: #ffffff;
+    color: #f57c00;
+}
+
+.search {
+    width: 99.85vw;
+    height: 10vh;
+    margin-left: -1.2vw;
+    background-color: #f57c00;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    width: 75vw;
+    height: 4vh;
+    border-radius: 7px 0px 0px 7px;
+    box-shadow: 0 0 0 0;
+    border: solid 2px #ffffff;
+}
+
+.btn-search {
+    /* width: 9vw; */
+    height: 5vh;
+    padding: 0 2vw 0 2vw;
+    border-radius: 0px 7px 7px 0px;
+    box-shadow: 0 0 0 0;
+    border: solid 1px #ffffff;
+    background-color: #f57c00;
+    color: #ffffff;
+}
+
+.btn-search:hover {
+    cursor: pointer;
+}
+
+.slide {
+    margin-top: 1vh;
+}
+
+.slide>img {
+    width: 1250px;
+    height: 300px;
+    margin: 0 3vw 0 3vw;
+}
+
+.destaques {
+    /* display: flex; */
+    margin-top: 71vh;
+    margin-left: -0.5vw;
+    width: 99.9vw;
+    position: absolute;
+}
+
+.destaques>h1,
+.destaques>h3 {
+    margin-left: 40vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6c757d;
+}
+
+#h3{
+    font-size: 1.35em;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    margin: 10px 60px 10px 0px;
+    background-color: #191970;
+}
+
+.card:nth-child(1) {
+    margin-left: 4vw;
+    background-color: red;
+}
+
+.card:nth-child(5) {
+    background-color: red;
+    margin-right: 0;
+}
