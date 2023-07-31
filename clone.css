@@ -140,7 +140,7 @@ a:hover {
     margin-top: 200vh;
     margin-left: -0.5vw;
     width: 100vw;
-    height: 55vh;
+    height: 54vh;
     position: absolute;
     background-color: #f57c00;
 }
@@ -203,6 +203,7 @@ a:hover {
 .div-portal {
     grid-area: 1 / 2 / 2 / 3;
     margin-left: 7vw;
+    width: 170px;
     color: #ffffff;   
 }
 
@@ -219,7 +220,7 @@ a:hover {
 .div-servicos {
     grid-area: 1 / 3 / 2 / 4;
     margin-left: 7vw;
-    width: 180px;
+    width: 170px;
     color: #ffffff;
 }
 
@@ -236,7 +237,7 @@ a:hover {
 .div-contatos {
     grid-area: 1 / 4 / 2 / 5;
     margin-left: 7vw;
-    width: 180px;
+    width: 170px;
     color: #ffffff;
 }
 
@@ -251,7 +252,6 @@ a:hover {
 
 .cop{
     background-color: #e97600;
-    /* background-color: #6c757d; */
     height: 8vh;
     display: flex;
 }
