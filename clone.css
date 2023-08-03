@@ -6,6 +6,7 @@
 
 *body {
     max-width: 100%;
+    background-color: #fefefe;
 }
 
 .nav-bar {
@@ -32,13 +33,16 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     .nav-bar {
-        height: 21%;
+        height: 25%;
     }
 
     .logo {
         width: 87px;
         height: 40px;
         margin: 0 1px 0 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-area: logo;
     }
 
@@ -92,7 +96,7 @@ a:hover {
     }
 
     .search {
-        height: 6vh;
+        height: 9vh;
         background-color: #f57c00;
         display: flex;
         align-items: center;
@@ -101,7 +105,7 @@ a:hover {
 
     #search {
         width: 70%;
-        height: 4vh;
+        height: 5vh;
         border-radius: 4px 0px 0px 4px;
         box-shadow: 0 0 0 0;
         border: solid 2px #ffffff;
@@ -109,7 +113,7 @@ a:hover {
 
     .btn-search {
         /* padding: 0 2vw 0 2vw; */
-        height: 5vh;
+        height: 6vh;
         border-radius: 0px 4px 4px 0px;
         box-shadow: 0 0 0 0;
         border: solid 1px #ffffff;
@@ -121,8 +125,55 @@ a:hover {
         cursor: pointer;
     }
 
-    #slide{
+    #slide {
         margin-top: 1%;
         max-width: 100%;
+        height: 50vh;
     }
+
+    .destaques>h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #6c757d;
+    }
+
+    .destaques>h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #6c757d;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        height: 150px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-box-shadow: 5px 5px 30px -9px rgba(43, 44, 48, 1);
+        -moz-box-shadow: 5px 5px 30px -9px rgba(43, 44, 48, 1);
+        box-shadow: 5px 5px 30px -9px rgba(43, 44, 48, 1);
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        justify-content: center;
+    }
+
+    /* #2B2C30 sombra */
 }
