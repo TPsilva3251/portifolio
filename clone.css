@@ -66,7 +66,7 @@ a:hover {
     }
 
     .publique {
-        background-color: #f57c00;
+        background-color: #f57b00;
         color: #ffffff;
         border-radius: 5px;
         height: 40px;
@@ -97,7 +97,7 @@ a:hover {
 
     .search {
         height: 9vh;
-        background-color: #f57c00;
+        background-color: #f57b00;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -117,7 +117,7 @@ a:hover {
         border-radius: 0px 4px 4px 0px;
         box-shadow: 0 0 0 0;
         border: solid 1px #ffffff;
-        background-color: #f57c00;
+        background-color: #f57b00;
         color: #ffffff;
     }
 
@@ -175,5 +175,82 @@ a:hover {
         justify-content: center;
     }
 
-    /* #2B2C30 sombra */
+    .footer {
+        background-color: #f57b00;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 1px #ffffff;
+        margin-top: 10px;
+    }
+
+    .social>h5 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+        margin-right: 5%;
+    }
+
+    .facebook,
+    .instagran {
+        width: 25px;
+        height: 25px;
+        padding-left: 15px;
+    }
+
+    .nome-footer {
+        margin-left: 25%;
+    }
+
+    .frase-footer {
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+        border-bottom: solid 1px #ffffff;
+        margin-top: 1px;
+    }
+
+    .div-portal,
+    .div-servicos,
+    .div-contatos {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+         margin-top: 35px;
+    }
+  
+
+    .div-portal>p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-servicos>p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-contatos>p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal{
+        font-size: 1.3em;
+    }
+
+    .cop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background-color: #e17000;
+    }
+
+    .cop>p{
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
