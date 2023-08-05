@@ -31,20 +31,46 @@ a:hover {
     cursor: pointer;
 }
 
+
 @media only screen and (max-width: 768px) {
     .nav-bar {
         height: 25%;
     }
 
+    .links-main {
+        display: flex;
+        grid-area: main;
+        border-bottom: solid 1px #ffffff;
+    }
+
+
     .logo {
-        width: 87px;
-        height: 40px;
-        margin: 0 1px 0 1px;
+        width: 20vw;
+        height: 10vh;
+        margin: 5% 5% 5% 40%;
         display: flex;
         justify-content: center;
         align-items: center;
-        grid-area: logo;
     }
+
+    .publique {
+        background-color: #f57b00;
+        color: #ffffff;
+        border-radius: 5px;
+        height: 5vh;
+        width: 40vw;
+        margin: 3% 0% 0% 30%;
+        padding: 0 5px 0 5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .publique:hover {
+        color: #ffffff;
+    }
+
 
     .home {
         grid-area: home;
@@ -65,19 +91,7 @@ a:hover {
         grid-area: anuncios;
     }
 
-    .publique {
-        background-color: #f57b00;
-        color: #ffffff;
-        border-radius: 5px;
-        height: 40px;
-        width: 180px;
-        padding: 0 10px 0 20px;
-        text-align: center;
-        grid-area: publique;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 
     .login {
         grid-area: login;
@@ -86,12 +100,12 @@ a:hover {
 
     .links {
         display: grid;
-        grid-template-rows: 75px 30px;
+        grid-template-rows: auto;
         grid-template-columns: 33% 33% 33%;
         grid-template-areas:
-            'logo publique publique'
-            'lojas produtos anuncios';
-        justify-items: center;
+            "main main main"
+            "lojas produtos anuncios";
+        justify-content: center;
         align-items: center;
     }
 
@@ -201,7 +215,7 @@ a:hover {
     }
 
     .nome-footer {
-        margin-left: 25%;
+        text-align: center;
     }
 
     .frase-footer {
@@ -218,9 +232,9 @@ a:hover {
     .div-contatos {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #ffffff;
-         margin-top: 35px;
+        margin-top: 35px;
     }
-  
+
 
     .div-portal>p {
         display: flex;
@@ -237,11 +251,11 @@ a:hover {
         justify-content: center;
     }
 
-    .principal{
+    .principal {
         font-size: 1.3em;
     }
 
-    .cop{
+    .cop {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -249,8 +263,121 @@ a:hover {
         background-color: #e17000;
     }
 
-    .cop>p{
+    .cop>p {
         color: #ffffff;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .publique {
+        font-size: 0.8em;
+        background-color: #f57b00;
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+    #slide {
+        margin-top: 1%;
+        max-width: 100%;
+    }
+
+    .links-main {
+        display: flex;
+        grid-area: main;
+        border-bottom: solid 1px #ffffff;
+    }
+
+    .logo {
+        height: 15vh;
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 5% 5% 15%;
+        grid-area: logo;
+    }
+
+    .publique {
+        height: 8vh;
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0% 0 30%;
+        color: #ffffff;
+        border-radius: 5px;
+        background-color: #f57b00;
+        grid-area: publique;
+    }
+
+    .publique:hover {
+        color: #ffffff;
+    }
+
+    .lojas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0 5% 0;
+        grid-area: lojas;
+    }
+
+    .produtos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0 5% 0;
+        grid-area: produtos;
+    }
+
+    .anuncios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0 5% 0;
+        grid-area: anuncios;
+    }
+
+    .links {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas:
+            "main main main"
+            "lojas produtos anuncios";
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search {
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f57b00;
+    }
+
+    #search {
+        width: 75vw;
+        height: 6vh;
+        text-align: center;
+        font-size: 1em;
+        box-shadow: 0 0 0 0;
+        border: solid 2px #ffffff;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .btn-search {
+        width: 15vw;
+        height: 7vh;
+        background-color: #f57b00;
+        color: #ffffff;
+        border: solid 2px #ffffff;
+        border-radius: 0 5px 5px 0;
     }
 }
