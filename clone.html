@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="nav-bar">
+    <div class="nav-bar" id="start">
         <div class="links">
           <div class="links-main">
             <a href="#" id="logo"><img src="imagens/nome.png" alt="" class="logo"></a>
@@ -95,8 +95,24 @@
         </div>
         <div class="cop">
             <p>₢PoweredBy <strong>PortalBocaiuva.com</strong></p>
+            <a class="btn-fixed" href="#start">
+                <span class="material-icons">
+                    Top
+                </span>
+            </a>
         </div>
     </div>
 </body>
+<script>
+    const botao = document.querySelector(".btn-fixed");
 
+    window.addEventListener("scroll", function(event){
+        if (window.scrollY < 50){
+            botao.classList.remove("visible");
+        }
+        else{
+            botao.classList.add("visible");
+        }
+    });
+</script>
 </html>
