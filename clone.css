@@ -380,4 +380,160 @@ a:hover {
         border: solid 2px #ffffff;
         border-radius: 0 5px 5px 0;
     }
+
+    .destaques>h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #6c757d;
+    }
+
+    .destaques>h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #6c757d;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        height: 200px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-box-shadow: 5px 5px 30px -9px rgba(43, 44, 48, 1);
+        -moz-box-shadow: 5px 5px 30px -9px rgba(43, 44, 48, 1);
+        box-shadow: 5px 5px 30px -9px rgba(43, 44, 48, 1);
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 18% 18% 18% 18% 18%;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        justify-content: center;
+    }
+
+       .footer {
+        background-color: #f57b00;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: solid 1px #ffffff;
+        margin-top: 10px;
+    }
+
+    .social>h5 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+        margin-right: 5%;
+    }
+
+    .facebook,
+    .instagran {
+        width: 25px;
+        height: 25px;
+        padding-left: 15px;
+    }
+
+    .nome-footer {
+        text-align: center;
+        grid-area: nome;
+    }
+
+    .frase-footer {
+        width: 120%;
+        display: flex;
+        justify-content: start;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+        margin: -15% 0 0 -10%;
+        grid-area: frase;
+    }
+
+    .div-portal{
+        grid-area: portal;
+    }
+
+    .div-servicos{
+        grid-area: servicos;
+    }
+
+    .div-contatos{
+        grid-area: contatos;
+    }
+
+    .div-portal,
+    .div-servicos,
+    .div-contatos {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+        margin-top: 35px;
+    }
+
+
+    .div-portal>p,
+    .div-servicos>p,
+    .div-contatos>p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal {
+        font-size: 1.3em;
+    }
+
+    .cop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background-color: #e17000;
+    }
+
+    .cop>p {
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .final{
+        display: grid;
+        grid-template-columns: 22% 22% 22% 22%;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-areas: "nome portal servicos contatos"
+        "frase nada nada nada";
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .logo {
+        width: 15vw;
+        margin-left: 30%;
+    }
+
+    .publique {
+        margin-top: 2%;
+    }
+
+    #slide {
+        margin: 1% 0 0 2%;
+    }
+
 }
