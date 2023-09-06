@@ -31,19 +31,83 @@ a:hover {
     cursor: pointer;
 }
 
-.btn-fixed{
+.btn-fixed {
     position: fixed;
     bottom: 30px;
     right: 30px;
     visibility: hidden;
 }
 
-.btn-fixed.visible{
+.btn-fixed.visible {
     visibility: visible;
 }
 
+/* animação */
+.galery {
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
+    height: 2%;
+    /* background-color: black; */
+    overflow: hidden;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+@keyframes animacao {
+
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+
+}
 
 @media only screen and (max-width: 768px) {
+
+    .galery{
+        height: 250px;
+    }
     .nav-bar {
         height: 25%;
     }
@@ -150,11 +214,11 @@ a:hover {
         cursor: pointer;
     }
 
-    #slide {
+    /* #slide {
         margin-top: 1%;
         max-width: 100%;
         height: 50vh;
-    }
+    } */
 
     .destaques>h1 {
         display: flex;
@@ -282,6 +346,10 @@ a:hover {
 
 @media only screen and (max-width: 450px) {
 
+    .galery{ 
+        height: 160px;
+    }
+
     .publique {
         font-size: 0.8em;
         background-color: #f57b00;
@@ -292,9 +360,13 @@ a:hover {
 
 @media only screen and (min-width: 769px) {
 
-    #slide {
+    /* #slide {
         margin-top: 1%;
         max-width: 100%;
+    } */
+
+    .galery {
+        /* height: 280px; */
     }
 
     .links-main {
@@ -436,7 +508,7 @@ a:hover {
         justify-content: center;
     }
 
-       .footer {
+    .footer {
         background-color: #f57b00;
     }
 
@@ -476,15 +548,15 @@ a:hover {
         grid-area: frase;
     }
 
-    .div-portal{
+    .div-portal {
         grid-area: portal;
     }
 
-    .div-servicos{
+    .div-servicos {
         grid-area: servicos;
     }
 
-    .div-contatos{
+    .div-contatos {
         grid-area: contatos;
     }
 
@@ -521,13 +593,13 @@ a:hover {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    .final{
+    .final {
         display: grid;
         grid-template-columns: 22% 22% 22% 22%;
         grid-column-gap: 15px;
         grid-row-gap: 15px;
         grid-template-areas: "nome portal servicos contatos"
-        "frase nada nada nada";
+            "frase nada nada nada";
         justify-content: center;
     }
 }
@@ -543,8 +615,12 @@ a:hover {
         margin-top: 2%;
     }
 
-    #slide {
+    /* #slide {
         margin: 1% 0 0 2%;
-    }
+    } */
 
 }
+
+
+
+
